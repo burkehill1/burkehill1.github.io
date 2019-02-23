@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+#mainphotop {
+    text-align: right;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif
+        
+}
+
+body {
+    background-color: black;
+}
+
+#mainphoto {
+    float: left;
+    height: 205px;
+}
+
+#moreaboutmep {
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    padding-top:10px;
+    padding-left: 125px;
+    font-size: 20px;
+
+}
+#anothertitle {
+    padding-top: 160px;
+}
+
+.secondaryheading {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+ul {
+      text-align: center;
+    font-family: sans-serif;
+    color: white;
+    list-style-type: none;
+}
+
+li {
+    text-align:;
+    font-family: sans-serif;
+    color: white;
+}
+
+#coolcode1 {
+    height: 600px;
+}
+
+#bottlegamep {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+a {
+    color: blue;
+    font-size:25px;
+    
+}
