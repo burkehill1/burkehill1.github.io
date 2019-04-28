@@ -102,3 +102,9 @@ a {
 #carti {
     width: 100%;
 }
+
+a {
+    color:black;
+    font:bold;
+    style:none;
+}
