@@ -2,6 +2,7 @@
 <html lang="en">
 <!--Created by Charles Burke McCampbell-Hill. This website was created using HTML5 and CSS3.
 Some Javascript is used to create a canvas image of a star.-->
+
 <head>
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css" />
     <title>Wonderful World of Charles</title>
@@ -9,10 +10,10 @@ Some Javascript is used to create a canvas image of a star.-->
 
 <body>
     <!--An audio source is added using the controls option, allowing the user to pause the music if they wish-->
-   <audio id="carti" controls>
-       <source src="carti.mp3" type="audio/mpeg">
-       My Favorite Song - Playboi Carti - Location
-   </audio>
+    <audio id="carti" controls>
+        <source src="carti.mp3" type="audio/mpeg">
+        My Favorite Song - Playboi Carti - Location
+    </audio>
     <h1 class="maintitles">Wonderful World of Charles</h1>
     <!--The following code exibits use of an if/else loop to tell the user to
     please stop pressing a button after it has been pressed so many times.-->
@@ -30,22 +31,21 @@ Some Javascript is used to create a canvas image of a star.-->
     </script>
     <!--An svg image that creates a star using given dimensions-->
     <svg class="star" with="300" height="200">
-        <polygon points="100, 10 40, 198 190, 78 10, 78 160, 198"
-        style="fill:white; stroke:white;" />
+        <polygon points="100, 10 40, 198 190, 78 10, 78 160, 198" style="fill:white; stroke:white;" />
     </svg>
     <canvas id="myCanvas" width="200" height="100">
-Your browser does not support the HTML5 canvas tag.</canvas>
-<!--A script that creates a text that states "Hello World!"-->
-<script>
-var c = document.getElementById("myCanvas");
+        Your browser does not support the HTML5 canvas tag.</canvas>
+    <!--A script that creates a text that states "Hello World!"-->
+    <script>
+        var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.font = "30px Arial";
 ctx.fillStyle = "red";
 ctx.fillText("Hello World!",10,50);
 </script>
-<!--A div is used here to divide the main photo into a section of it's own.-->
+    <!--A div is used here to divide the main photo into a section of it's own.-->
     <div id="mainphoto">
-        <img src="Images/body.png" height="400"  alt="A handsome man" id="handsome">
+        <img src="Images/body.png" height="400" alt="A handsome man" id="handsome">
     </div>
     <p id="mainphotop">Hello! My name is Charles McCampbell-Hill and I am currently a student at Florida Gulf Coast
         University. I am passionate in all that I do but more specifically I am passionate about both computers and the
@@ -72,25 +72,26 @@ ctx.fillText("Hello World!",10,50);
         <li>Participated in Hertz Hackathon</li>
         <li>High school Football Captain</li>
     </ul>
-            <h2 class="secondaryheading">Public Profiles</h2>
-            <!--Another list is used here to list my media section.-->
-            <ul class="profiles">
-                <li><a href="https://scratch.mit.edu/projects/283881378/">Scratch Project</a></li>
-                <li><a href="https://www.linkedin.com/in/charles-mccampbell-hill-476374124/">LinkedIn</a></li>
-                <li> <a href="https://github.com/burkehill1">Github</a></li>
-                <li><a href="fieldsReport.pdf" float="center">Fields Report</a></li>
-                <li><a href="usability.html">Usability</a></li>
-            </ul>
-            <h1>
-                Media
-            </h1>
-            <!--Another control attribute is used with the video element to allow users to pause and control the video
+    <h2 class="secondaryheading">Public Profiles</h2>
+    <!--Another list is used here to list my media section.-->
+    <ul class="profiles">
+        <li><a href="https://scratch.mit.edu/projects/283881378/">Scratch Project</a></li>
+        <li><a href="https://www.linkedin.com/in/charles-mccampbell-hill-476374124/">LinkedIn</a></li>
+        <li> <a href="https://github.com/burkehill1">Github</a></li>
+        <li><a href="fieldsReport.pdf" float="center">Fields Report</a></li>
+        <li><a href="usability.html">Usability</a></li>
+    </ul>
+    <h1>
+        Media
+    </h1>
+    <!--Another control attribute is used with the video element to allow users to pause and control the video
             as they wish.-->
-            <video width="320" height="240" controls>
-                <source src="FootballIntyview.mp4" type="video/mp4">
-                Football Interview From High School
-            </video>
-           
+    <video width="320" height="240" controls>
+        <source src="FootballIntyview.mp4" type="video/mp4">
+        Football Interview From High School
+    </video>
+
 </body>
 
 </html>
+
