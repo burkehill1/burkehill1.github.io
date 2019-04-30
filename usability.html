@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Usability</title>
-        <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css" />
-    </head>
-    <body>
-        <h1>An Internet For All</h1>
-        <p id="mainphotop">Us here working at McCampbell-Hillsoft have a mission to make an internet that is friendly for users of all types. 
-            Certain steps are needed to create a beautiful yet functional website. Good HTML structure creates a beautiful website that
-            is easy to navigate and allows users to enjoy a more in-depth experience.
-            Ensuring a certain level of contrast between text and elements
-            allows text to be easier to read for everyone. Avoiding style errors creates a clean visual experience for users and will make 
-            users feel comfortable when using your site. Overall, creating a peaceful interface for users to interact with will increase
-            the longevity of both your website and company. 
-        </p>
-    </body>
+
+<head>
+    <title>Usability</title>
+    <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css" />
+</head>
+
+<body>
+    <h1>An Internet For All</h1>
+    <p class="secondaryheading">Us here working at McCampbell-Hillsoft have a mission to make an internet that is friendly for users of all types.
+        Certain steps are needed to create a beautiful yet functional website. Good HTML structure creates a beautiful website that
+        is easy to navigate and allows users to enjoy a more in-depth experience.
+        Ensuring a certain level of contrast between text and elements
+        allows text to be easier to read for everyone. Avoiding style errors creates a clean visual experience for users and will make
+        users feel comfortable when using your site.
+    </p>
+    <p class="secondaryheading">
+        We also believe it is our duty to protect all users that visit our site. We encrypt all of the information given to
+        us by a user. Use the button below to view an example of encryption.
+    </p>
+    <!--The following button takes an input from a prompt and converts it into ascii code, encrypting the users name-->
+    <button onclick="cipher()">Encrypt my name</button>
+    <script>
+        function cipher() {
+            var name = prompt("Enter your name");
+            var ciphered = name.charCodeAt(0, 1, 2, 3, 4, 5, 6) + 3;
+            alert(ciphered);
+
+        }
+
+    </script>
+</body>
+
 </html>
